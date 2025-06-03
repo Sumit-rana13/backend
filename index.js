@@ -12,5 +12,5 @@ app.get('/login', (req,res)=>{
 })
 
 app.listen(process.env.PORT, () => {
-  console.log(`Server listening on port ${port}`)
+  console.log(`Server listening on port ${PORT}`)
 })
